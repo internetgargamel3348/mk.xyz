@@ -1,0 +1,23 @@
+.main{
+background-color: #31160a;
+}
+
+.introduction-flexbox{
+text-align: center;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+
+.introduction{
+max-width: 950px;
+background-color: #290a31;
+padding: 15px;
+border-radius: 15px;
+color: white;
+border: 3px #3f104c solid;
+}
+
+.introduction p{
+padding-top: 5px;
+}
