@@ -1,23 +1,51 @@
 .main{
-background-color: #31160a;
+  background-color: #15202b;
 }
 
-.introduction-flexbox{
-text-align: center;
-display: flex;
-justify-content: center;
-align-items: center;
+.flexbox{
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
-.introduction{
-max-width: 950px;
-background-color: #290a31;
-padding: 15px;
-border-radius: 15px;
-color: white;
-border: 3px #3f104c solid;
+.container{
+  background-color: #203244;
+  width: 650px;
+  padding: 15px;
+  /*border-radius: 15px;*/
+  color: white;
+  border: 3px #2d4054 solid;
+  margin-top: 20px;
+  max-height: 275px;
 }
 
 .introduction p{
-padding-top: 5px;
+  padding-bottom: 5px;
+  padding-right: 20px;
+  padding-left: 20px;
+}
+
+.whoami-list{
+  text-align: left;
+}
+
+.whoami-list li{
+  padding-top: 15px;
+}
+
+.whoami-flexbox{
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+a{
+  text-decoration: none;
+  color: gray;
+}
+
+a:hover{
+  color: black;
 }
