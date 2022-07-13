@@ -63,6 +63,15 @@ a:hover{
   color: black;
 }
 
+.no-style-list{
+  list-style-type: none;
+}
+
+.warning{
+  color: red;
+  background-color: black;
+}
+
 @media(max-width: 700px){
 .container{
 width: 350px;
