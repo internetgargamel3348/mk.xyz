@@ -1,79 +1,96 @@
-.main{
-  background-color: #15202b;
-  color: #FFFFFF;
+html{
+background-color: #15202b;
+color: #FFFFFF;
 }
 
 .flexbox{
-  text-align: center;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
+display: flex;
+align-items: flex-end;
 }
 
-.container{
-  background-color: #203244;
-  width: 650px;
-  border-radius: 20px;
-  padding: 20px;
-  /*border: 3px #2d4054 solid; */
-  margin-top: 20px;
-  max-height: auto;
+*{
+margin: 0px;
+padding: 0px;
 }
 
-p{
-  line-height: 155%;
+header{
+margin-top: 25px;
+margin-bottom: 75px;
 }
 
-.introduction p{
-  padding-bottom: 5px;
-  padding-right: 20px;
-  padding-left: 20px;
+.name{
+border-bottom: white solid 1px;
+margin-right: 100px;
+padding-right: 15px;
 }
 
-.whoami-list{
-  text-align: left;
-}
-
-li{
-  padding-top: 15px;
-  text-align:left;
-}
-
-.whoami-flexbox{
-  text-align: center;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+.header-links{
+padding-left: 40px
 }
 
 a{
-  text-decoration: none;
-  color: gray;
-  padding-top: 5px;
+color: cyan;
+text-decoration: none;
 }
 
-/*.christ-tree{
-    text-align: center;
-    margin-bottom: 0;
-    color: gray;
-}*/
+.main{
+text-align: center;
+max-width: 750px;
+margin: auto;
+}
+
+h1{
+margin-bottom: 45px;
+}
 
 a:hover{
-  color: black;
+color: #af5c09;
 }
 
-.no-style-list{
-  list-style-type: none;
+.note{
+margin-top: 25px;
+padding: 5px;
+background-color: #26394c;
+border-radius: 15px;
 }
 
-.warning{
-  color: red;
-  background-color: black;
+ul{
+text-align: left;
+margin-top: 35px;
+margin-bottom: 55px;
 }
 
-@media(max-width: 700px){
-.container{
-width: 350px;
+li{
+margin-bottom: 10px;
+}
+
+.introduction{
+border: #26394c dashed 2px; 
+padding: 35px;
+border-radius: 25px;
+}
+
+@media(max-width: 790px){
+.flexbox{
+display: inline;
+text-align: center;
+}
+
+.name{
+border-bottom: white solid 1px;
+margin-right: 0px;
+padding-right: 0px;
+max-width: 250px;
+margin: 15px auto;
+}
+
+.header-links{
+padding-left: 0px;
+margin-bottom: 10px;
+margin-top: 15px;
+}
+
+.introduction{
+margin: 75px 15px;
 }
 }
