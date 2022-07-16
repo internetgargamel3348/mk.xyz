@@ -1,6 +1,8 @@
 html{
 background-color: #15202b;
 color: #FFFFFF;
+font-family: monospace;
+font-size: 110%;
 }
 
 .flexbox{
@@ -22,6 +24,7 @@ margin-bottom: 75px;
 border-bottom: white solid 1px;
 margin-right: 100px;
 padding-right: 15px;
+text-align: left;
 }
 
 .header-links{
@@ -58,14 +61,15 @@ ul{
 text-align: left;
 margin-top: 35px;
 margin-bottom: 55px;
+line-height: 150%;
 }
 
 li{
-margin-bottom: 10px;
+margin-bottom: 15px;
 }
 
 .container{
-border: #5783af dashed 2px; 
+border: #5783af dashed 2px;
 padding: 35px;
 border-radius: 25px;
 }
@@ -73,6 +77,12 @@ border-radius: 25px;
 .paragraph{
 text-align: left;
 line-height: 200%;
+}
+
+.me{
+  border-radius: 100px;
+  width: 175px;
+  margin-bottom: 50px;
 }
 
 @media(max-width: 790px){
