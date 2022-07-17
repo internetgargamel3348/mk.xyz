@@ -2,7 +2,7 @@ html{
 background-color: #15202b;
 color: #FFFFFF;
 font-family: monospace;
-font-size: 110%;
+font-size: 120%;
 }
 
 .flexbox{
@@ -32,7 +32,7 @@ padding-left: 40px
 }
 
 a{
-color: cyan;
+color: #34dbd5;
 text-decoration: none;
 }
 
@@ -72,6 +72,7 @@ margin-bottom: 15px;
 border: #5783af dashed 2px;
 padding: 35px;
 border-radius: 25px;
+margin: 25px auto;
 }
 
 .paragraph{
@@ -82,7 +83,7 @@ line-height: 200%;
 .me{
   border-radius: 100px;
   width: 175px;
-  margin-bottom: 50px;
+  margin-bottom: 112px;
 }
 
 @media(max-width: 790px){
