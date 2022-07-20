@@ -83,8 +83,15 @@ line-height: 200%;
 .me{
   border-radius: 100px;
   width: 175px;
-  margin-bottom: 112px;
+  margin-bottom: 180px;
 }
+
+.footer{
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  }
 
 @media(max-width: 790px){
 .flexbox{
@@ -98,6 +105,7 @@ margin-right: 0px;
 padding-right: 0px;
 max-width: 250px;
 margin: 15px auto;
+text-align: center;
 }
 
 .header-links{
@@ -108,5 +116,9 @@ margin-top: 15px;
 
 .introduction{
 margin: 75px 15px;
+}
+
+.me{
+margin-bottom: 0px;
 }
 }
