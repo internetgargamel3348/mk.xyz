@@ -96,6 +96,7 @@ line-height: 200%;
   bottom: 0;
   left: 0;
   right: 0;
+  font-size: 120%;
   }
 
 @media(max-width: 790px){
