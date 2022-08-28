@@ -1,0 +1,20 @@
+h1{
+	font-family: cursive;
+}
+
+body{
+	max-width: 750px;
+	margin: 0 auto;
+	text-align: center;
+	font-family: Courier, monospace;
+	background-image: url(./img/5011.png); 
+}
+
+p, ul{
+	text-align: left;
+	padding-bottom: 5px; 
+}
+
+a{
+	color: #5c4335;
+}
